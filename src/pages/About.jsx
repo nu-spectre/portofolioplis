@@ -9,7 +9,7 @@ function About() {
       <div className="about-layout">
         {/* Profile card */}
         <div className="profile-card card">
-          <div className="profile-avatar">👨‍💻</div>
+          <img src="/foto-wisnu.png" alt="Wisnu Akbar Aridho" className="profile-avatar-img" />
           <h2 className="profile-name">Wisnu Akbar Aridho</h2>
           <p className="profile-role">Siswa SMK · Jurusan RPL · Kelas XI RPL 1</p>
           <div className="profile-divider" />
@@ -71,7 +71,7 @@ function About() {
                 { label: 'JavaScript', level: 75 },
                 { label: 'HTML & CSS', level: 90 },
                 { label: 'Git & GitHub', level: 65 },
-                { label: 'API', level: 70 },
+                { label: 'REST API', level: 70 },
               ].map(skill => (
                 <div key={skill.label} className="skill-bar">
                   <div className="skill-bar-label">

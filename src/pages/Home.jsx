@@ -6,7 +6,7 @@ function Home() {
     <div className="home">
       {/* Hero */}
       <section className="hero">
-        <div className="hero-avatar">👨‍💻</div>
+        <img src="/foto-wisnu.png" alt="Wisnu Akbar Aridho" className="hero-avatar-img" />
         <div className="hero-badge">
           <span className="dot"></span>
           Siswa Aktif · XI RPL 1
@@ -36,7 +36,7 @@ function Home() {
             { icon: '🌐', label: 'JavaScript', color: '#fbbf24' },
             { icon: '🎨', label: 'CSS', color: '#34d399' },
             { icon: '🗃️', label: 'LocalStorage', color: '#f87171' },
-            { icon: '🔗', label: 'API', color: '#fb923c' },
+            { icon: '🔗', label: 'REST API', color: '#fb923c' },
           ].map((skill) => (
             <div
               key={skill.label}
